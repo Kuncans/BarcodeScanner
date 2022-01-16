@@ -11,6 +11,7 @@
 		52C5ABEB2794793300310B6D /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5ABEA2794793300310B6D /* BarcodeScanner.swift */; };
 		52C5ABED2794793500310B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C5ABEC2794793500310B6D /* Assets.xcassets */; };
 		52C5ABF02794793500310B6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C5ABEF2794793500310B6D /* Preview Assets.xcassets */; };
+		52C5ABF827947D1E00310B6D /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5ABF727947D1E00310B6D /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		52C5ABEA2794793300310B6D /* BarcodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
 		52C5ABEC2794793500310B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C5ABEF2794793500310B6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52C5ABF627947CBE00310B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52C5ABF727947D1E00310B6D /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		52C5ABE72794793300310B6D /* BarcodeScanner */ = {
 			isa = PBXGroup;
 			children = (
+				52C5ABF627947CBE00310B6D /* Info.plist */,
 				52C5ABE82794793300310B6D /* BarcodeScannerApp.swift */,
 				52C5ABEA2794793300310B6D /* BarcodeScanner.swift */,
+				52C5ABF727947D1E00310B6D /* ScannerVC.swift */,
 				52C5ABEC2794793500310B6D /* Assets.xcassets */,
 				52C5ABEE2794793500310B6D /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C5ABF827947D1E00310B6D /* ScannerVC.swift in Sources */,
 				52C5ABEB2794793300310B6D /* BarcodeScanner.swift in Sources */,
 				52C5ABE92794793300310B6D /* BarcodeScannerApp.swift in Sources */,
 			);
@@ -272,6 +278,8 @@
 				DEVELOPMENT_TEAM = 8HB4M5YG35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BarcodeScanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera must be enabled to scan barcodes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +309,8 @@
 				DEVELOPMENT_TEAM = 8HB4M5YG35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BarcodeScanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera must be enabled to scan barcodes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
