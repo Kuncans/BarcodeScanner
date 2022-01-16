@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52C5ABE92794793300310B6D /* BarcodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5ABE82794793300310B6D /* BarcodeScannerApp.swift */; };
-		52C5ABEB2794793300310B6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5ABEA2794793300310B6D /* ContentView.swift */; };
+		52C5ABEB2794793300310B6D /* BarcodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C5ABEA2794793300310B6D /* BarcodeScanner.swift */; };
 		52C5ABED2794793500310B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C5ABEC2794793500310B6D /* Assets.xcassets */; };
 		52C5ABF02794793500310B6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C5ABEF2794793500310B6D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		52C5ABE52794793300310B6D /* BarcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C5ABE82794793300310B6D /* BarcodeScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerApp.swift; sourceTree = "<group>"; };
-		52C5ABEA2794793300310B6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52C5ABEA2794793300310B6D /* BarcodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanner.swift; sourceTree = "<group>"; };
 		52C5ABEC2794793500310B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52C5ABEF2794793500310B6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				52C5ABE82794793300310B6D /* BarcodeScannerApp.swift */,
-				52C5ABEA2794793300310B6D /* ContentView.swift */,
+				52C5ABEA2794793300310B6D /* BarcodeScanner.swift */,
 				52C5ABEC2794793500310B6D /* Assets.xcassets */,
 				52C5ABEE2794793500310B6D /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C5ABEB2794793300310B6D /* ContentView.swift in Sources */,
+				52C5ABEB2794793300310B6D /* BarcodeScanner.swift in Sources */,
 				52C5ABE92794793300310B6D /* BarcodeScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
